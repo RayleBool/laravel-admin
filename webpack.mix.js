@@ -13,6 +13,7 @@ const { mix } = require('laravel-mix');
 mix.styles([
         'resources/assets/css/styles.css',
         'resources/assets/css/semantic.css',
+        'resources/assets/css/font-awesome.css',
     ], 'public/css/backend-styles.css');
 
 mix.js('resources/assets/js/app.js', 'public/js')

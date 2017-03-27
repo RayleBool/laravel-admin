@@ -1,6 +1,8 @@
-<footer class="main-footer">
+<footer class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container-fluid">
       <div class="pull-right hidden-xs">
-          <b>Version</b> 2.3.8
+          <b>Version</b> 0.0.1
       </div>
-      <strong>Admin@2017-3-16<a href="https://github.com/LaravelChen" target="_blank">LaravelChen</a>.</strong>
+      <strong>boiling@2017-3-27<a href="" target="_blank">rayle</a></strong>
+    </div>
   </footer>

@@ -4,9 +4,9 @@
 
 @section('content')
         <h4 class="ui horizontal divider header">
-            <i class="home icon"></i>项目预览
+            <!-- <i class="home icon"></i>项目预览 -->
         </h4>
-        <div class="ui equal width grid">
+        <!-- <div class="ui equal width grid">
             <div class="row">
                 <div class="column">
                     <a class="ui card" href="#">
@@ -85,6 +85,6 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 @endsection

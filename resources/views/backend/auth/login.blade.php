@@ -6,7 +6,7 @@
 
 @section('body')
 <div class="container"  style="padding-top:100px;">
-    <div class="raw">
+    <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <div class="panel panel-info">
                 <div class="panel-heading" align="center">
