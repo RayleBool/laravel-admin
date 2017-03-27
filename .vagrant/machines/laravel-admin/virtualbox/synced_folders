@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/Code/laravel-admin":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/Code/laravel-admin","hostpath":"/var/www/php/laravel-admin","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/var/www/php/laravel-admin","disabled":false,"__vagrantfile":true}}}
