@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/admin', function () {
+    return view('backend.layouts.admin');
+});
+
 Route::group(['namespace' => 'Backend'], function() {
     Route::get('/login', [
         'uses'      => 'LoginController@login',
@@ -24,5 +28,10 @@ Route::group(['namespace' => 'Backend'], function() {
     Route::get('/index', [
         'uses'      => 'IndexController@index',
         'as'        => 'backend.index'
+    ]);
+
+    Route::get('/user/index', [
+        'uses'      => 'UserController@index',
+        'as'        => 'backend.user.index'
     ]);
 });

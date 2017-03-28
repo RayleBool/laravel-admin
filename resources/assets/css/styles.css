@@ -1,0 +1,454 @@
+body{
+font-family: "微软雅黑";
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "微软雅黑"
+}
+.no{
+display: none;
+}
+.show{
+display: block !important;
+}
+.btn-success{
+color: #fff;
+}
+/*=============================================*/
+/*==============    All-page    ===============*/
+/*=============================================*/
+.box{
+box-shadow: 0px 5px 10px #999;
+}
+@keyframes layer-show{
+from {
+    transform:translate(0,-30px);
+    opacity: 0;
+}
+to {
+    transform:translate(0,0px);
+    opacity: 1;
+}
+}
+@keyframes layer-hide{
+from {
+    transform:translate(0,0px);
+    opacity: 1;
+}
+to {
+    transform:translate(0,-30px);
+    opacity: 0;
+}
+}
+.animation-show{
+animation: layer-show .3s linear forwards;
+}
+.animation-hide{
+animation: layer-hide .3s linear forwards;
+}
+.layer{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 2000;
+background-color: rgba(255,255,255,.5);
+display: none;
+overflow-x: hidden;
+overflow-y: auto;
+}
+.layer-panel{
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+width: 300px;
+height: 300px;
+margin: auto;
+display: none;
+}
+.layer-panel-btn{
+margin-top: 50px;
+}
+.layer-panel-btn-y,.layer-panel-btn-n{
+width: 100px;
+vertical-align: top;
+}
+.layer-panel .layer-panel-btn-n{
+margin: 0;
+}
+.layer-showid{
+border: 1px solid #000;
+width: 800px;
+height: 800px;
+}
+.main-header .logo .logo-lg{
+font-family: "微软雅黑" ;
+font-size: 18px;
+}
+.main-header .logo .logo-lg b{
+font-size: 24px;
+}
+.content-header h1{
+}
+.box-body .tableList th{
+text-align: center;
+}
+.box-body .tableList td{
+vertical-align: middle;
+text-align: center;
+}
+.box-body .tableList img{
+width: 50px;
+height: 50px;
+}
+.box-body .tableList.page-type img{
+width: 100px;
+height: 75px;
+}
+.box-body .tableList.page-apart img{
+width: 100px;
+height: 75px;
+}
+.box-body .tableList i{
+width: 20px;
+cursor: pointer;
+}
+.table a{
+color: #333;
+}
+.tableSearch{
+margin-bottom: 0;
+}
+.tableSearch label{
+display: inline-block;
+}
+.tableSearch select{
+width: 150px;
+display: inline-block;
+border-radius: 3px;
+}
+.tableSearch .input-group-sm>.input-group-btn>.btn{
+height: 34px;
+}
+.tableSearch-city,.tableSearch-apart,.tableSearch-type{
+display: inline-block;
+margin: 12px;
+}
+.tableSearch-order{
+display: inline-block;
+margin: 12px;
+padding-top: 5px;
+}
+.tableSearch-search{
+width: 200px;
+height: 34px;
+margin: 12px;
+display: inline-block;
+vertical-align: top;
+}
+.tableSearch-search .form-control{
+height: 34px;
+}
+.tableList-head-check{
+width: 30px;
+}
+.tableList-head-img{
+width: 180px;
+}
+.tableList-head-ctr{
+width: 100px;
+}
+.box-header .tableList-btn button{
+float: right;
+margin: 12px;
+width: 100px;
+}
+.input-box{
+text-align: center;
+}
+.input-box .input-box-container{
+display: inline-block;
+}
+.input-box .form-group{
+text-align: left;
+}
+.input-box .box-footer{
+text-align: center;
+}
+.input .box-body label{
+width: 85px;
+text-align: right;
+}
+.input .box-body label ~ label{
+text-align: left;
+width: auto;
+}
+.input .box-body input,.input .box-body textarea{
+width: 500px;
+display: inline-block;
+}
+.input .box-body textarea{
+width: 300px;
+height: 200px;
+}
+.input .box-body .textarea-label{
+vertical-align: top;
+}
+.tableList-img-box{
+background: #eee;
+display: inline-block;
+padding: 4px;
+margin-right: 10px;
+}
+.tableList-img-box label{
+position: relative;
+}
+.tableList-img-box-btn{
+font-size: 12px;
+padding-bottom: 4px;
+padding-top: 4px;
+margin-top: -26px;
+position: relative;
+}
+.tableList-img-box img{
+width: 100px;
+height: 100px;
+
+}
+.tableList-img-box-img{
+position: absolute;
+z-index: 99;
+left: 0;
+top: 0;
+}
+.input .tableList-img label{
+vertical-align: top;
+cursor: pointer;
+}
+.input .tableList-img .tableList-img-up{
+width: 100px;
+height: 100px;
+}
+.input .tableList-img .tableList-img-box label{
+margin: 0;
+}
+.tableList-img-up{
+margin-left: 12px;
+color: #999;
+}
+.tableList-img-plus{
+text-align: center;
+}
+.tableList-img-plus i{
+font-size: 56px;
+font-weight: lighter;
+text-align: center;
+margin-top: 9px;
+}/*.input .roomsInput-checked input{
+width: auto;
+vertical-align: top;
+}*/
+.
+/*.input-jd div{
+margin-bottom: 5px;
+}
+.input-jd button{
+display: inline-block;
+width: 100px;
+}*/
+/*=====================================================*/
+/*================    page-login          =============*/
+/*=====================================================*/
+.login-checkbox{
+margin-left: 20px;
+}
+/*=====================================================*/
+/*================    page-apert-addApart  ============*/
+/*=====================================================*/
+.input .box-body .apart-city{
+width: 500px;
+display: inline-block;
+}
+.apart-sale-btn{
+display: inline-block;
+}
+.apart-sale-btn div{
+width: 200px;
+height: 34px;
+margin: 4px 0;
+}
+.apart-sale .apart-sale-btn input{
+width: 150px;
+}
+.apart-sale .apart-sale-btn label {
+width: 20px;
+padding-right: 10px;
+margin-top: 20px;
+}
+.apart-map > div{
+display: inline-block;
+}
+.apart-map > div >input{
+margin-bottom: 12px;
+}
+.apart-map label{
+vertical-align: top;
+}
+#apartmap{
+width: 400px;
+height: 400px;
+}
+.layer-addapart{
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin:auto;
+background: #fff;
+width: 500px;
+height: 550px;
+}
+.layer-addapart-img{
+width: 500px;
+height: 500px;
+box-shadow: 0px 0px 15px ;
+}
+.layer-addapart-img-btn{
+width: 100px;
+margin: auto;
+margin-top: 30px;
+}
+/*=====================================================*/
+/*==================    page-users      ===============*/
+/*=====================================================*/
+.userList-head-check{
+width: 30px;
+}
+.userList-head-img{
+width: 150px;
+}
+.userList-head-name{
+width: 80px;
+}
+.userList-head-ctr{
+width: 100px;
+}
+/*.userList-head-contact{
+width: 120px;
+}
+.userList-head-num{
+width: 200px;
+}*/
+/*=============================================*/
+/*==============    page-employeeEdit    ======*/
+/*=============================================*/
+.layer-erweima .box{
+width: 300px;
+height: 350px;
+}
+.layer-erweima-img{
+position: relative;
+width: 300px;
+height: 300px;
+}
+.layer-erweima-img img{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+max-width: 280px;
+max-height: 280px;
+}
+.layer .layer-erweima-btn button{
+margin: auto;
+}
+/*=====================================================*/
+/*==================    page-detail      ==============*/
+/*=====================================================*/
+.detail-box-header{
+overflow: hidden;
+}
+.detail-box{
+box-shadow: 0px 1px 3px #ccc;
+}
+.detail-demo{
+margin-bottom: 20px;
+}
+.detail-demo > div > p{
+text-align: center;
+}
+.detail-demo > div > div{
+width: 60px;
+height: 40px;
+border: 1px solid #999;
+margin:auto;
+}
+.idimg img{
+display: block;
+width: 500px;
+margin: auto;
+margin-bottom: 20px;
+}
+.table tbody tr td.detail-cz,.detail-cz{
+background-color: #f08608;
+}
+.table tbody tr td.detail-tf,.detail-tf{
+background-color: #60c0dc;
+}
+.table tbody tr td.detail-qf,.detail-qf{
+background-color:#d75452;
+}
+.detail-user{
+margin-bottom: 20px;
+}
+.detail-table{
+overflow-x: auto;
+}
+.detail-table td{
+cursor: pointer;
+}
+.detail-table td:hover{
+background: #f5f5f5;
+}
+.tablecell-active{
+}
+/*=====================================================*/
+/*=============     page-setting-city-add    ==========*/
+/*=====================================================*/
+.city-add .box-body{
+min-height: 400px;
+text-align: center;
+}
+.city-add .form-group{
+display: inline-block;
+margin-top: 150px;;
+}
+.city-add .box-footer{
+text-align: center;
+}
+/*=====================================================*/
+/*=============     page-setting-admin-add    =========*/
+/*=====================================================*/
+.passwordcheck{
+width: 0px !important;
+}
+.passwordcheck span{
+display: block;
+width: 145px;
+margin-bottom: -9px;
+}
+/*=====================================================*/
+/*=============     page-setting-weixin    =========*/
+/*=====================================================*/
+.weixin .input-box-container{
+margin:100px 0;
+}
+/*=====================================================*/
+/*=============         page-setting-add      =========*/
+/*=====================================================*/
