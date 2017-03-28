@@ -24,7 +24,6 @@
                             <th>用户名</th>
                             <th class="hidden-sm">昵称</th>
                             <th class="hidden-md">电话</th>
-                            <th class="hidden-md">微信</th>
                             <th class="hidden-md">鲜花数</th>
                             <th class="hidden-sm">是否认证</th>
                             <th class="hidden-sm">审核</th>
@@ -42,7 +41,6 @@
                             <td>{{ $user->username }}</td>
                             <td class="hidden-sm">{{ $user->nickname }}</td>
                             <td class="hidden-md">{{ $user->phone }}</td>
-                            <td class="hidden-md">{{ $user->weixin }}</td>
                             <td class="hidden-md">{{ $user->eb }}</td>
                             <td class="hidden-sm">{{ $user->class }}</td>
                             <td class="hidden-sm">{{ $user->state }}</td>
@@ -51,7 +49,7 @@
                             <td class="hidden-sm">{{ $user->follow }}</td>
                             <td>
                                 <a href="" class="btn btn-xs btn-info">
-                                    <i class="fa fa-edit"></i> Edit
+                                    <i class="fa fa-edit"></i> 编辑
                                 </a>
                             </td>
                         </tr>
@@ -60,10 +58,9 @@
                     </tbody>
                 </table>
          </div>
-     </section>
- </div>
-
+      </div>
   </section>
+
   <!-- /.content -->
 </div>
 @endsection

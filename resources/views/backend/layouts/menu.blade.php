@@ -39,18 +39,41 @@
         </ul>
       </li>
       <li class="treeview">
-        <a href="#">
+        <a href="{{ route('backend.group.index') }}"">
             <i class="fa fa-group"></i>
             <span>联盟管理</span>
             <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="treeview-menu">
           <li>
-              <a href="#"><span>联盟成员管理</span>
+              <a href="{{ route('backend.group.index') }}"><span>联盟管理</span>
+              </a>
+          </li>
+          <li>
+              <a href="{{ route('backend.group.member') }}">
+              <span>联盟成员管理</span>
               </a>
           </li>
           <li>
               <a href="#">联盟鲜花管理
+              </a>
+          </li>
+        </ul>
+      </li>
+       <li><a href="#">
+          <i class="fa fa-question-circle"></i>
+          <span>帖子管理</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li>
+              <a href="#">
+                  <span>帖子信息</span>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <span>联盟帖子</span>
               </a>
           </li>
         </ul>

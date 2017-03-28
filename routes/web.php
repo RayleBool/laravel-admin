@@ -34,4 +34,15 @@ Route::group(['namespace' => 'Backend'], function() {
         'uses'      => 'UserController@index',
         'as'        => 'backend.user.index'
     ]);
+
+
+     Route::get('/group/index', [
+        'uses'      => 'GroupController@index',
+        'as'        => 'backend.group.index'
+    ]);
+
+      Route::get('/group/member', [
+        'uses'      => 'GroupController@groupMember',
+        'as'        => 'backend.group.member'
+    ]);
 });
